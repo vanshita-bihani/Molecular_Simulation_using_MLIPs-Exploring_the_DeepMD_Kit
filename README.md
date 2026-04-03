@@ -9,6 +9,8 @@ nomena such as bond breaking, polarization, or specific electronic states. Conve
 ab initio methods like Density Functional Theory (DFT) offer high fidelity but scale
 poorly with system size (O(N3)), effectively limiting simulations to small clusters and
 short timescales.
+
+
 This report addresses this fundamental limitation by exploring the implementation
 of Machine Learning Interatomic Potentials (MLIPs), specifically utilizing the Deep
 Potential (DP) framework via the DeePMD-kit software package. We present a com
@@ -21,7 +23,9 @@ Potential model is rigorously validated against structural benchmarks, reproduci
 Carbon-Hydrogen bond length derived from the Radial Distribution Function (RDF)
 with a peak at approximately 1.1˚ A, in agreement with the experimental value of
 1.09˚
-A. Furthermore, the model is deployed to simulate bulk liquid methane, success
+A.
+
+Furthermore, the model is deployed to simulate bulk liquid methane, success
 fully predicting macroscopic transport properties including the self-diffusion coefficient
 (D ≈2.3×10−9m2/s) via Mean Square Displacement (MSD) and thermal conductivity
 (κ) via the Green-Kubo formalism.
